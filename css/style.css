@@ -1,0 +1,410 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    background-image: url(../images/background3.jpg);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.1rem 0.3rem;
+}
+
+header img {
+    width: 100px;
+}
+
+.navbar {
+    background-color: #1a237e;
+    padding: 0.1rem 2rem;
+}
+
+.navbar-brand {
+    display: none;
+}
+.nav-item a {
+    color: white;
+    margin: 0 1rem;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-weight: normal;
+}
+
+.nama{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    width: 800px;
+    height: 100px;
+    margin-bottom: -30px;
+    
+    }
+
+.img8 {
+    margin-left: 370px;
+    margin-top: -140px;
+    margin-bottom: 1%;
+    width: 150px;
+}
+.parag {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    width: 800px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: -700px;
+     
+}
+   
+
+.organ {
+    margin-top: 16rem;
+    padding-top: 16rem;
+}
+
+.prodi {
+    margin-top: 9rem;
+    padding-top: 8rem;
+}
+
+.organ h1,.prodi h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.organ-section {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.prodi-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-organ,.card-prodi {
+    border-radius: 20px;
+    padding: 1rem;
+    width: 400px;
+    height: 440px;
+    background-color: beige;
+}
+
+
+.card-organ h1,.card-prodi h1 {
+    font-size: 17px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+ .card-organ p,.card-prodi p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #27282a;
+    border-top-style: solid;
+    border-top-color: orange;
+}
+
+footer ul {
+    color: rgb(133, 124, 124);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    font-style: normal;
+   
+}
+
+footer li {
+    margin-left: 5px;
+    padding: 5px;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+    text-align: left;
+    list-style-type: none;
+}
+#ig {
+    width: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 15px;
+    color: white;
+    border-radius:2px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 )
+}
+
+#tiktok {
+    width: 18px;
+    margin-left: 5px;
+    border: 40px;
+    color: white;
+    background-color: black;
+}
+
+
+
+#Youtube {
+    color: red;
+    margin-left: 6px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.p7 {
+    color: rgb(133, 124, 124);
+    padding-bottom: 2px;
+    padding-top: 1px;
+    margin-bottom: 15px;
+    font-family: roboto, sans-serif;
+    text-align: center;
+}
+
+select {
+    border-radius: 20px;
+}
+
+
+
+
+
+/* Tampilan untuk layar dengan lebar maksimum 480px (Mobile) */
+@media screen and (max-width: 480px) {
+    /* Aturan CSS khusus untuk tampilan mobile */
+    body {
+        line-height: 1.6;
+    }
+  
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header img {
+        width: 55px;
+    }
+
+    .navbar {
+        padding: 0.1rem 0;
+    }
+    .navbar-brand {
+        display: block;
+    }
+
+    .navbar .navbar-toggler{
+        border-color: white;
+        background-color: #fff;
+    }
+
+    .content-head {
+        text-align: center;
+    }
+    
+    .content-head h1{
+        margin: 0;
+        font-size: 15px;
+
+
+    }.content-head p{
+        margin: 0;
+        font-size: 13px;
+        color: orange ;
+        text-shadow: 1px 1px 1px yellow;
+    }
+    
+    .nama {
+    text-align: left;
+    width: 700px;
+    margin-left: 40%;
+    margin-right: 7%;
+    font-size: 12px;
+    }
+
+    .img8 {
+    margin-left: 290px;
+    margin-top: -140px;
+    width: 140px;
+    }
+
+    .parag {
+    text-align: left;
+    width: 315px;
+    margin-left: 30%;
+    margin-right: 5%;
+    font-size: 14px
+    }
+
+    .organ {
+    
+    padding-top: 25rem;
+    }
+
+    .nav-item a{
+        margin: 0;
+    }
+
+
+    .user-section img {
+        width: 250px;
+        height: 250px;
+    }
+    .prodi{
+    padding-top: 0rem; 
+    }
+
+    .card-organ,.card-prodi {
+        width: 300px;
+        height: 440px;
+    }
+
+    .card-prodi {
+        height: 360px;
+    }
+
+    .card-organ p {
+        font-size: 0.8rem;
+    }
+
+    .card-organ h1, .card-organ li{
+        font-size:1rem;
+    }
+    .card-prodi h1, .card-prodi li{
+        font-size:1rem;
+    }
+
+    .organ {
+        margin:2rem 0;
+    }
+
+    .prodi {
+        margin:5rem 0 5rem;
+    }
+
+    footer ul {
+        padding: 10px;
+    }
+
+
+
+    
+    
+    /* Tambahan aturan CSS untuk elemen lain pada tampilan mobile */
+}
+
+  /* Tampilan untuk layar dengan lebar antara 481px hingga 768px (Tablet) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Aturan CSS khusus untuk tampilan tablet */
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .navbar-brand {
+        display: block;
+    } 
+
+    .content-head h1,p {
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .content-hero {
+
+    justify-content: center;
+    text-align: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: black;
+    margin: 0px;
+    margin-bottom: -250px;
+    font-size: 2em;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    .nav-item a{
+        margin: 0;
+    }
+    .organ {
+        height: 1350px;
+        margin: 10rem 0 ;
+    }
+
+    .prodi {
+        margin:10.5rem 0;
+    }
+
+
+
+
+
+
+}
+@media screen and (min-width: 769px) {
+    /* Aturan CSS khusus untuk tampilan desktop */
+    body {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+  
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content-head h1,p {
+        text-align: center;
+        margin: 0;
+    }
+    .content-hero {
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+    }
+    .organ {
+        margin:5rem 0 8rem ;
+    }
+
+    .prodi {
+        margin: 5rem 0 ;
+    }
+
+
+    /* Tambahan aturan CSS untuk elemen lain pada tampilan desktop */
+}
+
