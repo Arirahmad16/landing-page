@@ -20,6 +20,12 @@ header img {
     width: 100px;
 }
 
+.content-head p {
+    color:orange; 
+    text-shadow: 2px 1px 1px yellow; 
+    font-size: 27px;"
+}
+
 .navbar {
     background-color: #1a237e;
     padding: 0.1rem 2rem;
@@ -234,14 +240,15 @@ select {
     
     .content-head h1{
         margin: 0;
-        font-size: 15px;
+        font-size: 16px;
+    }
 
 
-    }.content-head p{
+    .content-head p{
         margin: 0;
-        font-size: 13px;
-        color: orange ;
-        text-shadow: 1px 1px 1px yellow;
+        font-size: 15px;
+        color:  orange;
+        text-shadow: 1px 1px 1px yellowgreen;
     }
     
     .nama {
